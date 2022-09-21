@@ -1,0 +1,41 @@
+body{
+    font-family: "Roboto",sans-serif;
+    height: 10000px;
+}
+
+.our_assets img{
+   max-width: 100%;
+}
+.our_assets .col-12 {
+    padding: 0;
+}
+.our_assets h1 {
+    margin: 40px;
+    padding-left: 30px;
+    color: chocolate;
+    font-weight: bold;
+}
+.our_assets p{
+    font-size: 13.5px;
+    padding-left: 70px;
+    padding-right: 10px;
+}
+hr{
+    margin-left:70px;
+    width: 85%;
+}
+@media (max-width: 767px) {
+
+    hr{
+        width: 70%;!important;
+        margin-left: 30px;
+    }
+    .our_assets p {
+        margin-left: -40px;
+        font-size: 17px;
+    }
+    .our_assets h1 {
+        margin: 20px;
+        padding-left: 10px;
+    }
+    }
